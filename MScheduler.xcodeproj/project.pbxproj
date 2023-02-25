@@ -7,62 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C9AF846F29A688CA000DF6A8 /* MSchedulerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF846E29A688CA000DF6A8 /* MSchedulerApp.swift */; };
-		C9AF847129A688CA000DF6A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF847029A688CA000DF6A8 /* ContentView.swift */; };
-		C9AF847329A688CB000DF6A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9AF847229A688CB000DF6A8 /* Assets.xcassets */; };
-		C9AF847729A688CB000DF6A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9AF847629A688CB000DF6A8 /* Preview Assets.xcassets */; };
-		C9AF848129A688CB000DF6A8 /* MSchedulerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF848029A688CB000DF6A8 /* MSchedulerTests.swift */; };
-		C9AF848B29A688CB000DF6A8 /* MSchedulerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF848A29A688CB000DF6A8 /* MSchedulerUITests.swift */; };
-		C9AF848D29A688CB000DF6A8 /* MSchedulerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF848C29A688CB000DF6A8 /* MSchedulerUITestsLaunchTests.swift */; };
+		C9AF84EB29A9CE54000DF6A8 /* MSchedulerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF84EA29A9CE54000DF6A8 /* MSchedulerApp.swift */; };
+		C9AF84ED29A9CE54000DF6A8 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF84EC29A9CE54000DF6A8 /* Persistence.swift */; };
+		C9AF84F029A9CE54000DF6A8 /* MScheduler.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C9AF84EE29A9CE54000DF6A8 /* MScheduler.xcdatamodeld */; };
+		C9AF84F229A9CE54000DF6A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF84F129A9CE54000DF6A8 /* ContentView.swift */; };
+		C9AF84F429A9CE55000DF6A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9AF84F329A9CE55000DF6A8 /* Assets.xcassets */; };
+		C9AF84F829A9CE55000DF6A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9AF84F729A9CE55000DF6A8 /* Preview Assets.xcassets */; };
+		C9AF850529A9CF21000DF6A8 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF850429A9CF21000DF6A8 /* SampleData.swift */; };
+		C9AF850729A9CF34000DF6A8 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF850629A9CF34000DF6A8 /* Reminder.swift */; };
+		C9AF850929A9CF43000DF6A8 /* ReminderGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF850829A9CF43000DF6A8 /* ReminderGroup.swift */; };
+		C9AF850F29A9CF85000DF6A8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF850E29A9CF85000DF6A8 /* HomeView.swift */; };
+		C9AF851329A9CFA2000DF6A8 /* ReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF851229A9CFA2000DF6A8 /* ReminderView.swift */; };
+		C9AF851529A9CFAF000DF6A8 /* ReminderGroupItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF851429A9CFAF000DF6A8 /* ReminderGroupItemView.swift */; };
+		C9AF851729A9E208000DF6A8 /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF851629A9E208000DF6A8 /* TodoListView.swift */; };
+		C9AF851929A9E25F000DF6A8 /* FloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF851829A9E25F000DF6A8 /* FloatingButton.swift */; };
+		C9AF851C29A9E423000DF6A8 /* TodoEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF851B29A9E423000DF6A8 /* TodoEditView.swift */; };
+		C9AF851E29A9E525000DF6A8 /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF851D29A9E525000DF6A8 /* TodoView.swift */; };
+		C9AF852029A9EA50000DF6A8 /* DateHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF851F29A9EA50000DF6A8 /* DateHolder.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		C9AF847D29A688CB000DF6A8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C9AF846329A688C9000DF6A8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C9AF846A29A688CA000DF6A8;
-			remoteInfo = MScheduler;
-		};
-		C9AF848729A688CB000DF6A8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C9AF846329A688C9000DF6A8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C9AF846A29A688CA000DF6A8;
-			remoteInfo = MScheduler;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		C9AF846B29A688CA000DF6A8 /* MScheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MScheduler.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9AF846E29A688CA000DF6A8 /* MSchedulerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSchedulerApp.swift; sourceTree = "<group>"; };
-		C9AF847029A688CA000DF6A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		C9AF847229A688CB000DF6A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C9AF847429A688CB000DF6A8 /* MScheduler.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MScheduler.entitlements; sourceTree = "<group>"; };
-		C9AF847629A688CB000DF6A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		C9AF847C29A688CB000DF6A8 /* MSchedulerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSchedulerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9AF848029A688CB000DF6A8 /* MSchedulerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSchedulerTests.swift; sourceTree = "<group>"; };
-		C9AF848629A688CB000DF6A8 /* MSchedulerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSchedulerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9AF848A29A688CB000DF6A8 /* MSchedulerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSchedulerUITests.swift; sourceTree = "<group>"; };
-		C9AF848C29A688CB000DF6A8 /* MSchedulerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSchedulerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C9AF84E729A9CE54000DF6A8 /* MScheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MScheduler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9AF84EA29A9CE54000DF6A8 /* MSchedulerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSchedulerApp.swift; sourceTree = "<group>"; };
+		C9AF84EC29A9CE54000DF6A8 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		C9AF84EF29A9CE54000DF6A8 /* MScheduler.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MScheduler.xcdatamodel; sourceTree = "<group>"; };
+		C9AF84F129A9CE54000DF6A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C9AF84F329A9CE55000DF6A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9AF84F529A9CE55000DF6A8 /* MScheduler.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MScheduler.entitlements; sourceTree = "<group>"; };
+		C9AF84F729A9CE55000DF6A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C9AF850429A9CF21000DF6A8 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		C9AF850629A9CF34000DF6A8 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		C9AF850829A9CF43000DF6A8 /* ReminderGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderGroup.swift; sourceTree = "<group>"; };
+		C9AF850E29A9CF85000DF6A8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C9AF851229A9CFA2000DF6A8 /* ReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderView.swift; sourceTree = "<group>"; };
+		C9AF851429A9CFAF000DF6A8 /* ReminderGroupItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderGroupItemView.swift; sourceTree = "<group>"; };
+		C9AF851629A9E208000DF6A8 /* TodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
+		C9AF851829A9E25F000DF6A8 /* FloatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButton.swift; sourceTree = "<group>"; };
+		C9AF851B29A9E423000DF6A8 /* TodoEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoEditView.swift; sourceTree = "<group>"; };
+		C9AF851D29A9E525000DF6A8 /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
+		C9AF851F29A9EA50000DF6A8 /* DateHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHolder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C9AF846829A688CA000DF6A8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C9AF847929A688CB000DF6A8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C9AF848329A688CB000DF6A8 /* Frameworks */ = {
+		C9AF84E429A9CE54000DF6A8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,73 +59,161 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C9AF846229A688C9000DF6A8 = {
+		C9AF84DE29A9CE54000DF6A8 = {
 			isa = PBXGroup;
 			children = (
-				C9AF846D29A688CA000DF6A8 /* MScheduler */,
-				C9AF847F29A688CB000DF6A8 /* MSchedulerTests */,
-				C9AF848929A688CB000DF6A8 /* MSchedulerUITests */,
-				C9AF846C29A688CA000DF6A8 /* Products */,
+				C9AF84E929A9CE54000DF6A8 /* MScheduler */,
+				C9AF84E829A9CE54000DF6A8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C9AF846C29A688CA000DF6A8 /* Products */ = {
+		C9AF84E829A9CE54000DF6A8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C9AF846B29A688CA000DF6A8 /* MScheduler.app */,
-				C9AF847C29A688CB000DF6A8 /* MSchedulerTests.xctest */,
-				C9AF848629A688CB000DF6A8 /* MSchedulerUITests.xctest */,
+				C9AF84E729A9CE54000DF6A8 /* MScheduler.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C9AF846D29A688CA000DF6A8 /* MScheduler */ = {
+		C9AF84E929A9CE54000DF6A8 /* MScheduler */ = {
 			isa = PBXGroup;
 			children = (
-				C9AF846E29A688CA000DF6A8 /* MSchedulerApp.swift */,
-				C9AF847029A688CA000DF6A8 /* ContentView.swift */,
-				C9AF847229A688CB000DF6A8 /* Assets.xcassets */,
-				C9AF847429A688CB000DF6A8 /* MScheduler.entitlements */,
-				C9AF847529A688CB000DF6A8 /* Preview Content */,
+				C9AF850329A9CEF2000DF6A8 /* Util */,
+				C9AF850229A9CEF0000DF6A8 /* Localizable */,
+				C9AF850129A9CEEF000DF6A8 /* Extention */,
+				C9AF850029A9CEED000DF6A8 /* Model */,
+				C9AF84FF29A9CEEB000DF6A8 /* Core */,
+				C9AF84FE29A9CEE7000DF6A8 /* App */,
+				C9AF84EC29A9CE54000DF6A8 /* Persistence.swift */,
+				C9AF84F129A9CE54000DF6A8 /* ContentView.swift */,
+				C9AF84F329A9CE55000DF6A8 /* Assets.xcassets */,
+				C9AF84F529A9CE55000DF6A8 /* MScheduler.entitlements */,
+				C9AF84EE29A9CE54000DF6A8 /* MScheduler.xcdatamodeld */,
+				C9AF850429A9CF21000DF6A8 /* SampleData.swift */,
+				C9AF84F629A9CE55000DF6A8 /* Preview Content */,
 			);
 			path = MScheduler;
 			sourceTree = "<group>";
 		};
-		C9AF847529A688CB000DF6A8 /* Preview Content */ = {
+		C9AF84F629A9CE55000DF6A8 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				C9AF847629A688CB000DF6A8 /* Preview Assets.xcassets */,
+				C9AF84F729A9CE55000DF6A8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		C9AF847F29A688CB000DF6A8 /* MSchedulerTests */ = {
+		C9AF84FE29A9CEE7000DF6A8 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				C9AF848029A688CB000DF6A8 /* MSchedulerTests.swift */,
+				C9AF84EA29A9CE54000DF6A8 /* MSchedulerApp.swift */,
 			);
-			path = MSchedulerTests;
+			path = App;
 			sourceTree = "<group>";
 		};
-		C9AF848929A688CB000DF6A8 /* MSchedulerUITests */ = {
+		C9AF84FF29A9CEEB000DF6A8 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				C9AF848A29A688CB000DF6A8 /* MSchedulerUITests.swift */,
-				C9AF848C29A688CB000DF6A8 /* MSchedulerUITestsLaunchTests.swift */,
+				C9AF850D29A9CF6B000DF6A8 /* Todo */,
+				C9AF850C29A9CF68000DF6A8 /* Reminder */,
+				C9AF850B29A9CF67000DF6A8 /* Calender */,
+				C9AF850A29A9CF65000DF6A8 /* Home */,
 			);
-			path = MSchedulerUITests;
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C9AF850029A9CEED000DF6A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C9AF850629A9CF34000DF6A8 /* Reminder.swift */,
+				C9AF850829A9CF43000DF6A8 /* ReminderGroup.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C9AF850129A9CEEF000DF6A8 /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		C9AF850229A9CEF0000DF6A8 /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Localizable;
+			sourceTree = "<group>";
+		};
+		C9AF850329A9CEF2000DF6A8 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				C9AF851F29A9EA50000DF6A8 /* DateHolder.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		C9AF850A29A9CF65000DF6A8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C9AF850E29A9CF85000DF6A8 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C9AF850B29A9CF67000DF6A8 /* Calender */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Calender;
+			sourceTree = "<group>";
+		};
+		C9AF850C29A9CF68000DF6A8 /* Reminder */ = {
+			isa = PBXGroup;
+			children = (
+				C9AF851029A9CF91000DF6A8 /* View */,
+				C9AF851129A9CF94000DF6A8 /* ViewModel */,
+			);
+			path = Reminder;
+			sourceTree = "<group>";
+		};
+		C9AF850D29A9CF6B000DF6A8 /* Todo */ = {
+			isa = PBXGroup;
+			children = (
+				C9AF851D29A9E525000DF6A8 /* TodoView.swift */,
+				C9AF851629A9E208000DF6A8 /* TodoListView.swift */,
+				C9AF851B29A9E423000DF6A8 /* TodoEditView.swift */,
+				C9AF851829A9E25F000DF6A8 /* FloatingButton.swift */,
+			);
+			path = Todo;
+			sourceTree = "<group>";
+		};
+		C9AF851029A9CF91000DF6A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C9AF851229A9CFA2000DF6A8 /* ReminderView.swift */,
+				C9AF851429A9CFAF000DF6A8 /* ReminderGroupItemView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C9AF851129A9CF94000DF6A8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C9AF846A29A688CA000DF6A8 /* MScheduler */ = {
+		C9AF84E629A9CE54000DF6A8 /* MScheduler */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C9AF849029A688CB000DF6A8 /* Build configuration list for PBXNativeTarget "MScheduler" */;
+			buildConfigurationList = C9AF84FB29A9CE55000DF6A8 /* Build configuration list for PBXNativeTarget "MScheduler" */;
 			buildPhases = (
-				C9AF846729A688CA000DF6A8 /* Sources */,
-				C9AF846829A688CA000DF6A8 /* Frameworks */,
-				C9AF846929A688CA000DF6A8 /* Resources */,
+				C9AF84E329A9CE54000DF6A8 /* Sources */,
+				C9AF84E429A9CE54000DF6A8 /* Frameworks */,
+				C9AF84E529A9CE54000DF6A8 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -146,69 +221,25 @@
 			);
 			name = MScheduler;
 			productName = MScheduler;
-			productReference = C9AF846B29A688CA000DF6A8 /* MScheduler.app */;
+			productReference = C9AF84E729A9CE54000DF6A8 /* MScheduler.app */;
 			productType = "com.apple.product-type.application";
-		};
-		C9AF847B29A688CB000DF6A8 /* MSchedulerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C9AF849329A688CB000DF6A8 /* Build configuration list for PBXNativeTarget "MSchedulerTests" */;
-			buildPhases = (
-				C9AF847829A688CB000DF6A8 /* Sources */,
-				C9AF847929A688CB000DF6A8 /* Frameworks */,
-				C9AF847A29A688CB000DF6A8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C9AF847E29A688CB000DF6A8 /* PBXTargetDependency */,
-			);
-			name = MSchedulerTests;
-			productName = MSchedulerTests;
-			productReference = C9AF847C29A688CB000DF6A8 /* MSchedulerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		C9AF848529A688CB000DF6A8 /* MSchedulerUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C9AF849629A688CB000DF6A8 /* Build configuration list for PBXNativeTarget "MSchedulerUITests" */;
-			buildPhases = (
-				C9AF848229A688CB000DF6A8 /* Sources */,
-				C9AF848329A688CB000DF6A8 /* Frameworks */,
-				C9AF848429A688CB000DF6A8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C9AF848829A688CB000DF6A8 /* PBXTargetDependency */,
-			);
-			name = MSchedulerUITests;
-			productName = MSchedulerUITests;
-			productReference = C9AF848629A688CB000DF6A8 /* MSchedulerUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C9AF846329A688C9000DF6A8 /* Project object */ = {
+		C9AF84DF29A9CE54000DF6A8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					C9AF846A29A688CA000DF6A8 = {
+					C9AF84E629A9CE54000DF6A8 = {
 						CreatedOnToolsVersion = 14.2;
-					};
-					C9AF847B29A688CB000DF6A8 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = C9AF846A29A688CA000DF6A8;
-					};
-					C9AF848529A688CB000DF6A8 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = C9AF846A29A688CA000DF6A8;
 					};
 				};
 			};
-			buildConfigurationList = C9AF846629A688C9000DF6A8 /* Build configuration list for PBXProject "MScheduler" */;
+			buildConfigurationList = C9AF84E229A9CE54000DF6A8 /* Build configuration list for PBXProject "MScheduler" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -216,88 +247,55 @@
 				en,
 				Base,
 			);
-			mainGroup = C9AF846229A688C9000DF6A8;
-			productRefGroup = C9AF846C29A688CA000DF6A8 /* Products */;
+			mainGroup = C9AF84DE29A9CE54000DF6A8;
+			productRefGroup = C9AF84E829A9CE54000DF6A8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C9AF846A29A688CA000DF6A8 /* MScheduler */,
-				C9AF847B29A688CB000DF6A8 /* MSchedulerTests */,
-				C9AF848529A688CB000DF6A8 /* MSchedulerUITests */,
+				C9AF84E629A9CE54000DF6A8 /* MScheduler */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C9AF846929A688CA000DF6A8 /* Resources */ = {
+		C9AF84E529A9CE54000DF6A8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9AF847729A688CB000DF6A8 /* Preview Assets.xcassets in Resources */,
-				C9AF847329A688CB000DF6A8 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C9AF847A29A688CB000DF6A8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C9AF848429A688CB000DF6A8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				C9AF84F829A9CE55000DF6A8 /* Preview Assets.xcassets in Resources */,
+				C9AF84F429A9CE55000DF6A8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C9AF846729A688CA000DF6A8 /* Sources */ = {
+		C9AF84E329A9CE54000DF6A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9AF847129A688CA000DF6A8 /* ContentView.swift in Sources */,
-				C9AF846F29A688CA000DF6A8 /* MSchedulerApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C9AF847829A688CB000DF6A8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C9AF848129A688CB000DF6A8 /* MSchedulerTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C9AF848229A688CB000DF6A8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C9AF848D29A688CB000DF6A8 /* MSchedulerUITestsLaunchTests.swift in Sources */,
-				C9AF848B29A688CB000DF6A8 /* MSchedulerUITests.swift in Sources */,
+				C9AF84EB29A9CE54000DF6A8 /* MSchedulerApp.swift in Sources */,
+				C9AF850929A9CF43000DF6A8 /* ReminderGroup.swift in Sources */,
+				C9AF851E29A9E525000DF6A8 /* TodoView.swift in Sources */,
+				C9AF84ED29A9CE54000DF6A8 /* Persistence.swift in Sources */,
+				C9AF84F229A9CE54000DF6A8 /* ContentView.swift in Sources */,
+				C9AF851729A9E208000DF6A8 /* TodoListView.swift in Sources */,
+				C9AF850729A9CF34000DF6A8 /* Reminder.swift in Sources */,
+				C9AF852029A9EA50000DF6A8 /* DateHolder.swift in Sources */,
+				C9AF851329A9CFA2000DF6A8 /* ReminderView.swift in Sources */,
+				C9AF850F29A9CF85000DF6A8 /* HomeView.swift in Sources */,
+				C9AF851529A9CFAF000DF6A8 /* ReminderGroupItemView.swift in Sources */,
+				C9AF850529A9CF21000DF6A8 /* SampleData.swift in Sources */,
+				C9AF84F029A9CE54000DF6A8 /* MScheduler.xcdatamodeld in Sources */,
+				C9AF851929A9E25F000DF6A8 /* FloatingButton.swift in Sources */,
+				C9AF851C29A9E423000DF6A8 /* TodoEditView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		C9AF847E29A688CB000DF6A8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C9AF846A29A688CA000DF6A8 /* MScheduler */;
-			targetProxy = C9AF847D29A688CB000DF6A8 /* PBXContainerItemProxy */;
-		};
-		C9AF848829A688CB000DF6A8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C9AF846A29A688CA000DF6A8 /* MScheduler */;
-			targetProxy = C9AF848729A688CB000DF6A8 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		C9AF848E29A688CB000DF6A8 /* Debug */ = {
+		C9AF84F929A9CE55000DF6A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -355,7 +353,7 @@
 			};
 			name = Debug;
 		};
-		C9AF848F29A688CB000DF6A8 /* Release */ = {
+		C9AF84FA29A9CE55000DF6A8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -406,7 +404,7 @@
 			};
 			name = Release;
 		};
-		C9AF849129A688CB000DF6A8 /* Debug */ = {
+		C9AF84FC29A9CE55000DF6A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -444,7 +442,7 @@
 			};
 			name = Debug;
 		};
-		C9AF849229A688CB000DF6A8 /* Release */ = {
+		C9AF84FD29A9CE55000DF6A8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -479,139 +477,44 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		C9AF849429A688CB000DF6A8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = TF7A9VAMPY;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = moseoh.MSchedulerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MScheduler.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MScheduler";
-			};
-			name = Debug;
-		};
-		C9AF849529A688CB000DF6A8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = TF7A9VAMPY;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = moseoh.MSchedulerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MScheduler.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MScheduler";
-			};
-			name = Release;
-		};
-		C9AF849729A688CB000DF6A8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = TF7A9VAMPY;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = moseoh.MSchedulerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MScheduler;
-			};
-			name = Debug;
-		};
-		C9AF849829A688CB000DF6A8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = TF7A9VAMPY;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = moseoh.MSchedulerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MScheduler;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C9AF846629A688C9000DF6A8 /* Build configuration list for PBXProject "MScheduler" */ = {
+		C9AF84E229A9CE54000DF6A8 /* Build configuration list for PBXProject "MScheduler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C9AF848E29A688CB000DF6A8 /* Debug */,
-				C9AF848F29A688CB000DF6A8 /* Release */,
+				C9AF84F929A9CE55000DF6A8 /* Debug */,
+				C9AF84FA29A9CE55000DF6A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C9AF849029A688CB000DF6A8 /* Build configuration list for PBXNativeTarget "MScheduler" */ = {
+		C9AF84FB29A9CE55000DF6A8 /* Build configuration list for PBXNativeTarget "MScheduler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C9AF849129A688CB000DF6A8 /* Debug */,
-				C9AF849229A688CB000DF6A8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C9AF849329A688CB000DF6A8 /* Build configuration list for PBXNativeTarget "MSchedulerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C9AF849429A688CB000DF6A8 /* Debug */,
-				C9AF849529A688CB000DF6A8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C9AF849629A688CB000DF6A8 /* Build configuration list for PBXNativeTarget "MSchedulerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C9AF849729A688CB000DF6A8 /* Debug */,
-				C9AF849829A688CB000DF6A8 /* Release */,
+				C9AF84FC29A9CE55000DF6A8 /* Debug */,
+				C9AF84FD29A9CE55000DF6A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C9AF84EE29A9CE54000DF6A8 /* MScheduler.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C9AF84EF29A9CE54000DF6A8 /* MScheduler.xcdatamodel */,
+			);
+			currentVersion = C9AF84EF29A9CE54000DF6A8 /* MScheduler.xcdatamodel */;
+			path = MScheduler.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
-	rootObject = C9AF846329A688C9000DF6A8 /* Project object */;
+	rootObject = C9AF84DF29A9CE54000DF6A8 /* Project object */;
 }

@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  TodoView.swift
 //  MScheduler
 //
 //  Created by 문성하 on 2023/02/25.
@@ -8,39 +8,34 @@
 import SwiftUI
 import CoreData
 
-struct ContentView: View {
+struct TodoView: View {
     @Environment(\.managedObjectContext) private var viewContext
 
     @FetchRequest(
-        sortDescriptors: [NSSortDescriptor(keyPath: \Item.timestamp, ascending: true)],
+        sortDescriptors: [NSSortDescriptor(keyPath: \Todo.dueDate, ascending: true)],
         animation: .default)
-    private var items: FetchedResults<Item>
+    private var items: FetchedResults<Todo>
 
     var body: some View {
         NavigationView {
-            List {
-                ForEach(items) { item in
-                    NavigationLink {
-                        Text("Item at \(item.timestamp!, formatter: itemFormatter)")
-                    } label: {
-                        Text(item.timestamp!, formatter: itemFormatter)
+            VStack {
+                ZStack {
+                    List {
+                        ForEach(items) { item in
+//                            NavigationLink(destination: TodoEditView()) {
+//                                Text(item.dueDate!, formatter: itemFormatter)
+//                            }
+                        }
+                            .onDelete(perform: deleteItems)
                     }
-                }
-                .onDelete(perform: deleteItems)
-            }
-            .toolbar {
-#if os(iOS)
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    EditButton()
-                }
-#endif
-                ToolbarItem {
-                    Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
+                    .toolbar {
+                        ToolbarItem(placement: .navigationBarTrailing) {
+                            EditButton()
+                        }
                     }
+                    FloatingButton()
                 }
-            }
-            Text("Select an item")
+            }.navigationTitle("ToDo List")
         }
     }
 
@@ -83,7 +78,7 @@ private let itemFormatter: DateFormatter = {
     return formatter
 }()
 
-struct ContentView_Previews: PreviewProvider {
+struct TodoView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
     }
