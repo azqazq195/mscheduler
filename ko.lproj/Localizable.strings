@@ -1,0 +1,30 @@
+/* 
+  Localizable.strings
+  MScheduler
+
+  Created by 문성하 on 2023/02/25.
+  
+*/
+
+"Save" = "저장";
+"Edit" = "수정";
+"Add" = "추가";
+"Done" = "완료";
+"Cacnel" = "취소";
+
+"Reminders" = "미리 알림";
+"New Reminder" = "새로운 미리 알림";
+"Edit Lists" = "목록 수정";
+"Templates" = "템플릿";
+"My Lists" = "나의 목록";
+"Today" = "오늘";
+"Scheduled" = "예정";
+"All" = "모두";
+"Falgged" = "깃발";
+"Completed" = "완료";
+"Assigned" = "할당됨";
+"Add List" = "목록 추가";
+"Tags" = "태그";
+
+"Todo" = "Todo";
+"Todo List" = "Todo 목록 📝";

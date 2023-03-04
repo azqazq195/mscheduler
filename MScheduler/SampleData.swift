@@ -8,28 +8,6 @@
 import Foundation
 import SwiftUI
 
-public var reminderGroupList = [
-    ReminderGroup(name: "오늘", color: Color(UIColor.systemBlue), iconName: "person.circle.fill", reminders: [
-        Reminder(name: "할일-1"),
-        Reminder(name: "할일-2")
-    ]),
-    ReminderGroup(name: "예정", color: Color(UIColor.systemRed), iconName: "calendar.circle.fill", reminders: [
-        Reminder(name: "할일-1")
-    ]),
-    ReminderGroup(name: "전체", color: Color(UIColor.label), iconName: "tray.circle.fill", reminders: [
-        Reminder(name: "할일-1"),
-        Reminder(name: "할일-2"),
-        Reminder(name: "할일-3")
-    ]),
-    ReminderGroup(name: "깃발 표시", color: Color(UIColor.systemOrange), iconName: "flag.circle.fill", reminders: [
-        
-    ]),
-    ReminderGroup(name: "완료됨", color: Color(UIColor.systemGray), iconName: "checkmark.circle.fill", reminders: [
-        Reminder(name: "할일-1"),
-        Reminder(name: "할일-2")
-    ])
-]
-
 public var countryList = [
     "Afghanistan",
     "Albania",

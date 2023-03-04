@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C94F394529B16E4C002BF70F /* ReminderDetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94F394429B16E4C002BF70F /* ReminderDetailEditView.swift */; };
+		C94F394729B1A436002BF70F /* ReminderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94F394629B1A436002BF70F /* ReminderListView.swift */; };
+		C94F394B29B1D491002BF70F /* ReminderListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94F394A29B1D491002BF70F /* ReminderListItemView.swift */; };
+		C94F394E29B35523002BF70F /* RoundedRectangleIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94F394D29B35523002BF70F /* RoundedRectangleIcon.swift */; };
 		C9AF84EB29A9CE54000DF6A8 /* MSchedulerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF84EA29A9CE54000DF6A8 /* MSchedulerApp.swift */; };
 		C9AF84ED29A9CE54000DF6A8 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF84EC29A9CE54000DF6A8 /* Persistence.swift */; };
 		C9AF84F029A9CE54000DF6A8 /* MScheduler.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C9AF84EE29A9CE54000DF6A8 /* MScheduler.xcdatamodeld */; };
@@ -14,19 +18,29 @@
 		C9AF84F429A9CE55000DF6A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9AF84F329A9CE55000DF6A8 /* Assets.xcassets */; };
 		C9AF84F829A9CE55000DF6A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9AF84F729A9CE55000DF6A8 /* Preview Assets.xcassets */; };
 		C9AF850529A9CF21000DF6A8 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF850429A9CF21000DF6A8 /* SampleData.swift */; };
-		C9AF850729A9CF34000DF6A8 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF850629A9CF34000DF6A8 /* Reminder.swift */; };
-		C9AF850929A9CF43000DF6A8 /* ReminderGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF850829A9CF43000DF6A8 /* ReminderGroup.swift */; };
 		C9AF850F29A9CF85000DF6A8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF850E29A9CF85000DF6A8 /* HomeView.swift */; };
 		C9AF851329A9CFA2000DF6A8 /* ReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF851229A9CFA2000DF6A8 /* ReminderView.swift */; };
-		C9AF851529A9CFAF000DF6A8 /* ReminderGroupItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF851429A9CFAF000DF6A8 /* ReminderGroupItemView.swift */; };
-		C9AF851729A9E208000DF6A8 /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF851629A9E208000DF6A8 /* TodoListView.swift */; };
-		C9AF851929A9E25F000DF6A8 /* FloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF851829A9E25F000DF6A8 /* FloatingButton.swift */; };
-		C9AF851C29A9E423000DF6A8 /* TodoEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF851B29A9E423000DF6A8 /* TodoEditView.swift */; };
+		C9AF851529A9CFAF000DF6A8 /* ReminderStatusItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF851429A9CFAF000DF6A8 /* ReminderStatusItemView.swift */; };
 		C9AF851E29A9E525000DF6A8 /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF851D29A9E525000DF6A8 /* TodoView.swift */; };
 		C9AF852029A9EA50000DF6A8 /* DateHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF851F29A9EA50000DF6A8 /* DateHolder.swift */; };
+		C9B824B029B0164C007322C0 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B824AF29B0164C007322C0 /* Reminder.swift */; };
+		C9B824B229B0179F007322C0 /* ReminderGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B824B129B0179F007322C0 /* ReminderGroup.swift */; };
+		C9B824B429B02247007322C0 /* ReminderGroupItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B824B329B02247007322C0 /* ReminderGroupItemView.swift */; };
+		C9BB1D2829B0308C0070C6A2 /* ExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BB1D2729B0308C0070C6A2 /* ExampleView.swift */; };
+		C9F9AF7229A9FDF700AAB7CB /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F9AF7129A9FDF700AAB7CB /* TodoListView.swift */; };
+		C9F9AF7429A9FEED00AAB7CB /* TodoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F9AF7329A9FEED00AAB7CB /* TodoItemView.swift */; };
+		C9F9AF7629AA00BC00AAB7CB /* TodoAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F9AF7529AA00BC00AAB7CB /* TodoAddView.swift */; };
+		C9F9AF7B29AA034000AAB7CB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9F9AF7D29AA034000AAB7CB /* Localizable.strings */; };
+		C9F9AF8829AA08EE00AAB7CB /* TodoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F9AF8729AA08EE00AAB7CB /* TodoModel.swift */; };
+		C9F9AF8B29AA0C3400AAB7CB /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F9AF8A29AA0C3400AAB7CB /* ListViewModel.swift */; };
+		C9F9AF8D29AA264500AAB7CB /* TodoEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F9AF8C29AA264500AAB7CB /* TodoEmptyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C94F394429B16E4C002BF70F /* ReminderDetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDetailEditView.swift; sourceTree = "<group>"; };
+		C94F394629B1A436002BF70F /* ReminderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListView.swift; sourceTree = "<group>"; };
+		C94F394A29B1D491002BF70F /* ReminderListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListItemView.swift; sourceTree = "<group>"; };
+		C94F394D29B35523002BF70F /* RoundedRectangleIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedRectangleIcon.swift; sourceTree = "<group>"; };
 		C9AF84E729A9CE54000DF6A8 /* MScheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MScheduler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9AF84EA29A9CE54000DF6A8 /* MSchedulerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSchedulerApp.swift; sourceTree = "<group>"; };
 		C9AF84EC29A9CE54000DF6A8 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -36,16 +50,23 @@
 		C9AF84F529A9CE55000DF6A8 /* MScheduler.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MScheduler.entitlements; sourceTree = "<group>"; };
 		C9AF84F729A9CE55000DF6A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C9AF850429A9CF21000DF6A8 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
-		C9AF850629A9CF34000DF6A8 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
-		C9AF850829A9CF43000DF6A8 /* ReminderGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderGroup.swift; sourceTree = "<group>"; };
 		C9AF850E29A9CF85000DF6A8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		C9AF851229A9CFA2000DF6A8 /* ReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderView.swift; sourceTree = "<group>"; };
-		C9AF851429A9CFAF000DF6A8 /* ReminderGroupItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderGroupItemView.swift; sourceTree = "<group>"; };
-		C9AF851629A9E208000DF6A8 /* TodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
-		C9AF851829A9E25F000DF6A8 /* FloatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButton.swift; sourceTree = "<group>"; };
-		C9AF851B29A9E423000DF6A8 /* TodoEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoEditView.swift; sourceTree = "<group>"; };
+		C9AF851429A9CFAF000DF6A8 /* ReminderStatusItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderStatusItemView.swift; sourceTree = "<group>"; };
 		C9AF851D29A9E525000DF6A8 /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
 		C9AF851F29A9EA50000DF6A8 /* DateHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHolder.swift; sourceTree = "<group>"; };
+		C9B824AF29B0164C007322C0 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		C9B824B129B0179F007322C0 /* ReminderGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderGroup.swift; sourceTree = "<group>"; };
+		C9B824B329B02247007322C0 /* ReminderGroupItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderGroupItemView.swift; sourceTree = "<group>"; };
+		C9BB1D2729B0308C0070C6A2 /* ExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleView.swift; sourceTree = "<group>"; };
+		C9F9AF7129A9FDF700AAB7CB /* TodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
+		C9F9AF7329A9FEED00AAB7CB /* TodoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItemView.swift; sourceTree = "<group>"; };
+		C9F9AF7529AA00BC00AAB7CB /* TodoAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAddView.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		C9F9AF7E29AA034B00AAB7CB /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C9F9AF8429AA045400AAB7CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C9F9AF8729AA08EE00AAB7CB /* TodoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoModel.swift; sourceTree = "<group>"; };
+		C9F9AF8A29AA0C3400AAB7CB /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		C9F9AF8C29AA264500AAB7CB /* TodoEmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoEmptyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +80,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C94F394329B16E05002BF70F /* TBD */ = {
+			isa = PBXGroup;
+			children = (
+				C9AF851429A9CFAF000DF6A8 /* ReminderStatusItemView.swift */,
+			);
+			path = TBD;
+			sourceTree = "<group>";
+		};
+		C94F394C29B35510002BF70F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C94F394D29B35523002BF70F /* RoundedRectangleIcon.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		C9AF84DE29A9CE54000DF6A8 = {
 			isa = PBXGroup;
 			children = (
+				C9F9AF7D29AA034000AAB7CB /* Localizable.strings */,
 				C9AF84E929A9CE54000DF6A8 /* MScheduler */,
 				C9AF84E829A9CE54000DF6A8 /* Products */,
 			);
@@ -78,10 +116,10 @@
 		C9AF84E929A9CE54000DF6A8 /* MScheduler */ = {
 			isa = PBXGroup;
 			children = (
+				C94F394C29B35510002BF70F /* Components */,
 				C9AF850329A9CEF2000DF6A8 /* Util */,
 				C9AF850229A9CEF0000DF6A8 /* Localizable */,
 				C9AF850129A9CEEF000DF6A8 /* Extention */,
-				C9AF850029A9CEED000DF6A8 /* Model */,
 				C9AF84FF29A9CEEB000DF6A8 /* Core */,
 				C9AF84FE29A9CEE7000DF6A8 /* App */,
 				C9AF84EC29A9CE54000DF6A8 /* Persistence.swift */,
@@ -107,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				C9AF84EA29A9CE54000DF6A8 /* MSchedulerApp.swift */,
+				C9BB1D2729B0308C0070C6A2 /* ExampleView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -120,15 +159,6 @@
 				C9AF850A29A9CF65000DF6A8 /* Home */,
 			);
 			path = Core;
-			sourceTree = "<group>";
-		};
-		C9AF850029A9CEED000DF6A8 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				C9AF850629A9CF34000DF6A8 /* Reminder.swift */,
-				C9AF850829A9CF43000DF6A8 /* ReminderGroup.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		C9AF850129A9CEEF000DF6A8 /* Extention */ = {
@@ -171,8 +201,10 @@
 		C9AF850C29A9CF68000DF6A8 /* Reminder */ = {
 			isa = PBXGroup;
 			children = (
-				C9AF851029A9CF91000DF6A8 /* View */,
-				C9AF851129A9CF94000DF6A8 /* ViewModel */,
+				C94F394329B16E05002BF70F /* TBD */,
+				C9B824AE29B01638007322C0 /* Models */,
+				C9AF851029A9CF91000DF6A8 /* Views */,
+				C9AF851129A9CF94000DF6A8 /* ViewModels */,
 			);
 			path = Reminder;
 			sourceTree = "<group>";
@@ -180,26 +212,65 @@
 		C9AF850D29A9CF6B000DF6A8 /* Todo */ = {
 			isa = PBXGroup;
 			children = (
-				C9AF851D29A9E525000DF6A8 /* TodoView.swift */,
-				C9AF851629A9E208000DF6A8 /* TodoListView.swift */,
-				C9AF851B29A9E423000DF6A8 /* TodoEditView.swift */,
-				C9AF851829A9E25F000DF6A8 /* FloatingButton.swift */,
+				C9F9AF8529AA08DC00AAB7CB /* View */,
+				C9F9AF8629AA08E000AAB7CB /* Model */,
+				C9F9AF8929AA0C1E00AAB7CB /* ViewModel */,
 			);
 			path = Todo;
 			sourceTree = "<group>";
 		};
-		C9AF851029A9CF91000DF6A8 /* View */ = {
+		C9AF851029A9CF91000DF6A8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				C9AF851229A9CFA2000DF6A8 /* ReminderView.swift */,
-				C9AF851429A9CFAF000DF6A8 /* ReminderGroupItemView.swift */,
+				C94F394629B1A436002BF70F /* ReminderListView.swift */,
+				C94F394A29B1D491002BF70F /* ReminderListItemView.swift */,
+				C94F394429B16E4C002BF70F /* ReminderDetailEditView.swift */,
+				C9B824B329B02247007322C0 /* ReminderGroupItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C9AF851129A9CF94000DF6A8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C9B824AE29B01638007322C0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C9B824AF29B0164C007322C0 /* Reminder.swift */,
+				C9B824B129B0179F007322C0 /* ReminderGroup.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C9F9AF8529AA08DC00AAB7CB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C9AF851D29A9E525000DF6A8 /* TodoView.swift */,
+				C9F9AF7129A9FDF700AAB7CB /* TodoListView.swift */,
+				C9F9AF7329A9FEED00AAB7CB /* TodoItemView.swift */,
+				C9F9AF7529AA00BC00AAB7CB /* TodoAddView.swift */,
+				C9F9AF8C29AA264500AAB7CB /* TodoEmptyView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		C9AF851129A9CF94000DF6A8 /* ViewModel */ = {
+		C9F9AF8629AA08E000AAB7CB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C9F9AF8729AA08EE00AAB7CB /* TodoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C9F9AF8929AA0C1E00AAB7CB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C9F9AF8A29AA0C3400AAB7CB /* ListViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -246,6 +317,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ko,
 			);
 			mainGroup = C9AF84DE29A9CE54000DF6A8;
 			productRefGroup = C9AF84E829A9CE54000DF6A8 /* Products */;
@@ -263,6 +335,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9AF84F829A9CE55000DF6A8 /* Preview Assets.xcassets in Resources */,
+				C9F9AF7B29AA034000AAB7CB /* Localizable.strings in Resources */,
 				C9AF84F429A9CE55000DF6A8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,30 +348,52 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9AF84EB29A9CE54000DF6A8 /* MSchedulerApp.swift in Sources */,
-				C9AF850929A9CF43000DF6A8 /* ReminderGroup.swift in Sources */,
+				C9B824B429B02247007322C0 /* ReminderGroupItemView.swift in Sources */,
+				C9F9AF8829AA08EE00AAB7CB /* TodoModel.swift in Sources */,
+				C9F9AF7629AA00BC00AAB7CB /* TodoAddView.swift in Sources */,
+				C94F394E29B35523002BF70F /* RoundedRectangleIcon.swift in Sources */,
+				C9BB1D2829B0308C0070C6A2 /* ExampleView.swift in Sources */,
 				C9AF851E29A9E525000DF6A8 /* TodoView.swift in Sources */,
+				C9F9AF7229A9FDF700AAB7CB /* TodoListView.swift in Sources */,
+				C9F9AF8D29AA264500AAB7CB /* TodoEmptyView.swift in Sources */,
+				C94F394529B16E4C002BF70F /* ReminderDetailEditView.swift in Sources */,
 				C9AF84ED29A9CE54000DF6A8 /* Persistence.swift in Sources */,
+				C9B824B029B0164C007322C0 /* Reminder.swift in Sources */,
+				C9F9AF7429A9FEED00AAB7CB /* TodoItemView.swift in Sources */,
+				C94F394729B1A436002BF70F /* ReminderListView.swift in Sources */,
 				C9AF84F229A9CE54000DF6A8 /* ContentView.swift in Sources */,
-				C9AF851729A9E208000DF6A8 /* TodoListView.swift in Sources */,
-				C9AF850729A9CF34000DF6A8 /* Reminder.swift in Sources */,
 				C9AF852029A9EA50000DF6A8 /* DateHolder.swift in Sources */,
 				C9AF851329A9CFA2000DF6A8 /* ReminderView.swift in Sources */,
 				C9AF850F29A9CF85000DF6A8 /* HomeView.swift in Sources */,
-				C9AF851529A9CFAF000DF6A8 /* ReminderGroupItemView.swift in Sources */,
+				C9AF851529A9CFAF000DF6A8 /* ReminderStatusItemView.swift in Sources */,
 				C9AF850529A9CF21000DF6A8 /* SampleData.swift in Sources */,
 				C9AF84F029A9CE54000DF6A8 /* MScheduler.xcdatamodeld in Sources */,
-				C9AF851929A9E25F000DF6A8 /* FloatingButton.swift in Sources */,
-				C9AF851C29A9E423000DF6A8 /* TodoEditView.swift in Sources */,
+				C94F394B29B1D491002BF70F /* ReminderListItemView.swift in Sources */,
+				C9F9AF8B29AA0C3400AAB7CB /* ListViewModel.swift in Sources */,
+				C9B824B229B0179F007322C0 /* ReminderGroup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C9F9AF7D29AA034000AAB7CB /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9F9AF7E29AA034B00AAB7CB /* ko */,
+				C9F9AF8429AA045400AAB7CB /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C9AF84F929A9CE55000DF6A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -357,6 +452,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";

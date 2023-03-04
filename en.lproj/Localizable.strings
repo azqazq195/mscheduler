@@ -1,0 +1,30 @@
+/* 
+  Localizable.strings
+  MScheduler
+
+  Created by 문성하 on 2023/02/25.
+  
+*/
+
+"Save" = "Save";
+"Edit" = "Edit";
+"Add" = "Add";
+"Done" = "Done";
+"Cacnel" = "Cacnel";
+
+"Reminders" = "Reminders";
+"New Reminder" = "New Reminder";
+"Edit Lists" = "Edit Lists";
+"Templates" = "Templates";
+"My Lists" = "My Lists";
+"Today" = "Today";
+"Scheduled" = "Scheduled";
+"All" = "All";
+"Falgged" = "Falgged";
+"Completed" = "Completed";
+"Assigned" = "Assigned";
+"Add List" = "Add List";
+"Tags" = "Tags";
+
+"Todo" = "Todo";
+"Todo List" = "Todo List 📝";

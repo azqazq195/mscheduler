@@ -13,13 +13,24 @@ struct MSchedulerApp: App {
 
     var body: some Scene {
         WindowGroup {
+            NavigationView {
+                ReminderView(reminders: .constant(Reminder.sampleData), reminderGroups:
+                        .constant(ReminderGroup.sampleData)
+                )
+            }
             
-            let context = persistenceController.container.viewContext
-            let dataHolder = DateHolder(context)
+//            NavigationView {
+//                ExampleView()
+//            }
             
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
-                .environmentObject(dataHolder)
+            
+            
+//            HomeView()
+            
+            
+//            ContentView()
+//                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                
         }
     }
 }
