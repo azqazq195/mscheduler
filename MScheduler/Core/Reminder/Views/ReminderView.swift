@@ -19,14 +19,7 @@ struct ReminderView: View {
     
     var body: some View {
         List {
-            Section {
-                Text("Blank")
-                Text("Blank")
-                Text("Blank")
-                Text("Blank")
-                Text("Blank")
-                Text("Blank")
-            }
+            // MARK: Status 별로 나누기
             if searchText.isEmpty {
                 ReminderContentView(reminderGroups: $reminderGroups)
             }
@@ -64,7 +57,6 @@ struct ReminderView: View {
                 }
             }
             
-            // MARK: bottom
             ToolbarItemGroup(placement: .bottomBar) {
                 if (isPresentingEditGroupList) {
                     Spacer()
@@ -82,7 +74,7 @@ struct ReminderView: View {
                                 .fontWeight(.semibold)
                             Text("New Reminder")
                         }
-                    }
+                    }.disabled(reminderGroups.isEmpty)
                 }
                 
                 //                TODO 목록이 없다면 disabledd
@@ -111,22 +103,6 @@ struct ReminderView: View {
                 } else {
                     Text("error")
                 }
-                //                Text("수정화면")
-                //                    .navigationTitle("수정")
-                //                    .toolbar {
-                //                        ToolbarItem(placement: .cancellationAction) {
-                //                            Button("Cancel") {
-                //                                isPresentingEditView = false
-                //                            }
-                //                        }
-                //                        ToolbarItem(placement: .confirmationAction) {
-                //                            Button("Done") {
-                //                                isPresentingEditView = false
-                ////                                scrum.update(from: data)
-                //                            }
-                //                        }
-                //                    }
-                
             }
         }
         .background(Color("BackgroundScheme"))
@@ -147,20 +123,23 @@ struct ReminderView: View {
         @Binding var reminderGroups: [ReminderGroup]
         
         var body: some View {
-            
-            Section(header: Text("My Lists")
-                .font(.title3)
-                .fontWeight(.bold)
-                .foregroundColor(Color(UIColor.label))
-            ) {
-                ForEach($reminderGroups) { reminderGroup in
-                    NavigationLink(destination: ReminderListView(reminderGroup: reminderGroup)) {
-                        ReminderGroupItemView(reminderGroup: reminderGroup)
+            if reminderGroups.isEmpty {
+                Group {}
+            } else {
+                Section(header: Text("My Lists")
+                    .font(.title3)
+                    .fontWeight(.bold)
+                    .foregroundColor(Color(UIColor.label))
+                ) {
+                    ForEach($reminderGroups) { reminderGroup in
+                        NavigationLink(destination: ReminderListView(reminderGroup: reminderGroup)) {
+                            ReminderGroupItemView(reminderGroup: reminderGroup)
+                        }
                     }
-                }
-                .onDelete(perform: delete)
-                .onMove(perform: onMove)
-            }.textCase(.none)
+                    .onDelete(perform: delete)
+                    .onMove(perform: onMove)
+                }.textCase(.none)
+            }
         }
         
         private func delete(at offsets: IndexSet) {
@@ -189,6 +168,7 @@ struct ReminderView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
             ReminderView(reminders: .constant(Reminder.sampleData), reminderGroups: .constant(ReminderGroup.sampleData))
+//            ReminderView(reminders: .constant([]), reminderGroups: .constant([]))
         }
         .environment(\.locale, .init(identifier: "ko"))
     }

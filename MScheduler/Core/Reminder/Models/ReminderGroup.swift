@@ -92,7 +92,7 @@ extension ReminderGroup {
             notes: "Don't forget about taxi receipts",
             date: Date().addingTimeInterval(800.0),
             isCheckDate: true,
-            isCheckTime: false,
+            isCheckTime: true,
             isCompleted: false,
             group: reminderGroups[0]
         )

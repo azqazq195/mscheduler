@@ -11,18 +11,16 @@
 		C94F394729B1A436002BF70F /* ReminderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94F394629B1A436002BF70F /* ReminderListView.swift */; };
 		C94F394B29B1D491002BF70F /* ReminderListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94F394A29B1D491002BF70F /* ReminderListItemView.swift */; };
 		C94F394E29B35523002BF70F /* RoundedRectangleIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94F394D29B35523002BF70F /* RoundedRectangleIcon.swift */; };
+		C94F397229B39173002BF70F /* ReminderModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C94F397029B39173002BF70F /* ReminderModel.xcdatamodeld */; };
 		C9AF84EB29A9CE54000DF6A8 /* MSchedulerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF84EA29A9CE54000DF6A8 /* MSchedulerApp.swift */; };
 		C9AF84ED29A9CE54000DF6A8 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF84EC29A9CE54000DF6A8 /* Persistence.swift */; };
-		C9AF84F029A9CE54000DF6A8 /* MScheduler.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C9AF84EE29A9CE54000DF6A8 /* MScheduler.xcdatamodeld */; };
 		C9AF84F229A9CE54000DF6A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF84F129A9CE54000DF6A8 /* ContentView.swift */; };
 		C9AF84F429A9CE55000DF6A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9AF84F329A9CE55000DF6A8 /* Assets.xcassets */; };
 		C9AF84F829A9CE55000DF6A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9AF84F729A9CE55000DF6A8 /* Preview Assets.xcassets */; };
-		C9AF850529A9CF21000DF6A8 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF850429A9CF21000DF6A8 /* SampleData.swift */; };
 		C9AF850F29A9CF85000DF6A8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF850E29A9CF85000DF6A8 /* HomeView.swift */; };
 		C9AF851329A9CFA2000DF6A8 /* ReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF851229A9CFA2000DF6A8 /* ReminderView.swift */; };
 		C9AF851529A9CFAF000DF6A8 /* ReminderStatusItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF851429A9CFAF000DF6A8 /* ReminderStatusItemView.swift */; };
 		C9AF851E29A9E525000DF6A8 /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF851D29A9E525000DF6A8 /* TodoView.swift */; };
-		C9AF852029A9EA50000DF6A8 /* DateHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF851F29A9EA50000DF6A8 /* DateHolder.swift */; };
 		C9B824B029B0164C007322C0 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B824AF29B0164C007322C0 /* Reminder.swift */; };
 		C9B824B229B0179F007322C0 /* ReminderGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B824B129B0179F007322C0 /* ReminderGroup.swift */; };
 		C9B824B429B02247007322C0 /* ReminderGroupItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B824B329B02247007322C0 /* ReminderGroupItemView.swift */; };
@@ -41,20 +39,18 @@
 		C94F394629B1A436002BF70F /* ReminderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListView.swift; sourceTree = "<group>"; };
 		C94F394A29B1D491002BF70F /* ReminderListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListItemView.swift; sourceTree = "<group>"; };
 		C94F394D29B35523002BF70F /* RoundedRectangleIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedRectangleIcon.swift; sourceTree = "<group>"; };
+		C94F397129B39173002BF70F /* ReminderModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ReminderModel.xcdatamodel; sourceTree = "<group>"; };
 		C9AF84E729A9CE54000DF6A8 /* MScheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MScheduler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9AF84EA29A9CE54000DF6A8 /* MSchedulerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSchedulerApp.swift; sourceTree = "<group>"; };
 		C9AF84EC29A9CE54000DF6A8 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		C9AF84EF29A9CE54000DF6A8 /* MScheduler.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MScheduler.xcdatamodel; sourceTree = "<group>"; };
 		C9AF84F129A9CE54000DF6A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C9AF84F329A9CE55000DF6A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9AF84F529A9CE55000DF6A8 /* MScheduler.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MScheduler.entitlements; sourceTree = "<group>"; };
 		C9AF84F729A9CE55000DF6A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		C9AF850429A9CF21000DF6A8 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 		C9AF850E29A9CF85000DF6A8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		C9AF851229A9CFA2000DF6A8 /* ReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderView.swift; sourceTree = "<group>"; };
 		C9AF851429A9CFAF000DF6A8 /* ReminderStatusItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderStatusItemView.swift; sourceTree = "<group>"; };
 		C9AF851D29A9E525000DF6A8 /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
-		C9AF851F29A9EA50000DF6A8 /* DateHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHolder.swift; sourceTree = "<group>"; };
 		C9B824AF29B0164C007322C0 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 		C9B824B129B0179F007322C0 /* ReminderGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderGroup.swift; sourceTree = "<group>"; };
 		C9B824B329B02247007322C0 /* ReminderGroupItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderGroupItemView.swift; sourceTree = "<group>"; };
@@ -96,6 +92,14 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
+		C94F396F29B39166002BF70F /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				C94F397029B39173002BF70F /* ReminderModel.xcdatamodeld */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
 		C9AF84DE29A9CE54000DF6A8 = {
 			isa = PBXGroup;
 			children = (
@@ -116,9 +120,8 @@
 		C9AF84E929A9CE54000DF6A8 /* MScheduler */ = {
 			isa = PBXGroup;
 			children = (
+				C94F396F29B39166002BF70F /* DataModel */,
 				C94F394C29B35510002BF70F /* Components */,
-				C9AF850329A9CEF2000DF6A8 /* Util */,
-				C9AF850229A9CEF0000DF6A8 /* Localizable */,
 				C9AF850129A9CEEF000DF6A8 /* Extention */,
 				C9AF84FF29A9CEEB000DF6A8 /* Core */,
 				C9AF84FE29A9CEE7000DF6A8 /* App */,
@@ -126,8 +129,6 @@
 				C9AF84F129A9CE54000DF6A8 /* ContentView.swift */,
 				C9AF84F329A9CE55000DF6A8 /* Assets.xcassets */,
 				C9AF84F529A9CE55000DF6A8 /* MScheduler.entitlements */,
-				C9AF84EE29A9CE54000DF6A8 /* MScheduler.xcdatamodeld */,
-				C9AF850429A9CF21000DF6A8 /* SampleData.swift */,
 				C9AF84F629A9CE55000DF6A8 /* Preview Content */,
 			);
 			path = MScheduler;
@@ -166,21 +167,6 @@
 			children = (
 			);
 			path = Extention;
-			sourceTree = "<group>";
-		};
-		C9AF850229A9CEF0000DF6A8 /* Localizable */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Localizable;
-			sourceTree = "<group>";
-		};
-		C9AF850329A9CEF2000DF6A8 /* Util */ = {
-			isa = PBXGroup;
-			children = (
-				C9AF851F29A9EA50000DF6A8 /* DateHolder.swift */,
-			);
-			path = Util;
 			sourceTree = "<group>";
 		};
 		C9AF850A29A9CF65000DF6A8 /* Home */ = {
@@ -358,16 +344,14 @@
 				C9F9AF8D29AA264500AAB7CB /* TodoEmptyView.swift in Sources */,
 				C94F394529B16E4C002BF70F /* ReminderDetailEditView.swift in Sources */,
 				C9AF84ED29A9CE54000DF6A8 /* Persistence.swift in Sources */,
+				C94F397229B39173002BF70F /* ReminderModel.xcdatamodeld in Sources */,
 				C9B824B029B0164C007322C0 /* Reminder.swift in Sources */,
 				C9F9AF7429A9FEED00AAB7CB /* TodoItemView.swift in Sources */,
 				C94F394729B1A436002BF70F /* ReminderListView.swift in Sources */,
 				C9AF84F229A9CE54000DF6A8 /* ContentView.swift in Sources */,
-				C9AF852029A9EA50000DF6A8 /* DateHolder.swift in Sources */,
 				C9AF851329A9CFA2000DF6A8 /* ReminderView.swift in Sources */,
 				C9AF850F29A9CF85000DF6A8 /* HomeView.swift in Sources */,
 				C9AF851529A9CFAF000DF6A8 /* ReminderStatusItemView.swift in Sources */,
-				C9AF850529A9CF21000DF6A8 /* SampleData.swift in Sources */,
-				C9AF84F029A9CE54000DF6A8 /* MScheduler.xcdatamodeld in Sources */,
 				C94F394B29B1D491002BF70F /* ReminderListItemView.swift in Sources */,
 				C9F9AF8B29AA0C3400AAB7CB /* ListViewModel.swift in Sources */,
 				C9B824B229B0179F007322C0 /* ReminderGroup.swift in Sources */,
@@ -600,13 +584,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		C9AF84EE29A9CE54000DF6A8 /* MScheduler.xcdatamodeld */ = {
+		C94F397029B39173002BF70F /* ReminderModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				C9AF84EF29A9CE54000DF6A8 /* MScheduler.xcdatamodel */,
+				C94F397129B39173002BF70F /* ReminderModel.xcdatamodel */,
 			);
-			currentVersion = C9AF84EF29A9CE54000DF6A8 /* MScheduler.xcdatamodel */;
-			path = MScheduler.xcdatamodeld;
+			currentVersion = C94F397129B39173002BF70F /* ReminderModel.xcdatamodel */;
+			path = ReminderModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

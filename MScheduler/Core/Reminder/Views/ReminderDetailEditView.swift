@@ -13,28 +13,24 @@ struct ReminderDetailEditView: View {
     @State var timeToggle: Bool
     @State var openDatePicker: Bool = false
     @State var openTimePicker: Bool = false
+    private let dateFormatter = {
+        let formatter = DateFormatter()
+        formatter.dateStyle = .full
+        formatter.doesRelativeDateFormatting = true
+        return formatter
+    }
+    private let timeFormatter = {
+        let formatter = DateFormatter()
+        formatter.timeStyle = .short
+        return formatter
+    }
+    
     
     init(data: Binding<Reminder.Data>) {
         _data = data
         _dateToggle = State(initialValue: data.isCheckDate.wrappedValue)
         _timeToggle = State(initialValue: data.isCheckTime.wrappedValue)
-//        _openDatePicker = State(initialValue: false)
-//        _openTimePicker = State(initialValue: false)
     }
-    
-    //    var data: Binding<Reminder.Data>
-    //    var datePickerToggle: State<Bool>
-    //    var timePickerToggle: State<Bool>
-    //    var openDatePicker: State<Bool>
-    //    var openTimePicker: State<Bool>
-    //
-    //    init(data: Binding<Reminder.Data>) {
-    //        self.data = data
-    //        self.datePickerToggle = State(initialValue: self.data.isCheckDate.wrappedValue)
-    //        self.timePickerToggle = State(initialValue: self.data.isCheckTime.wrappedValue)
-    //        self.openDatePicker = State(initialValue: false)
-    //        self.openTimePicker = State(initialValue: false)
-    //    }
     
     var body: some View {
         Form {
@@ -46,56 +42,57 @@ struct ReminderDetailEditView: View {
             Section {
                 HStack {
                     RoundedRectangleIcon(systemName: "calendar", background: .red)
-                    Toggle(isOn: $dateToggle) {
+                    Toggle(isOn: $data.isCheckDate) {
                         Text("날짜")
                         if (data.isCheckDate) {
-                            Button{}label: {Text("오늘")}
-                                .font(.caption)
+                            Button{}label: {
+                                
+                                Text(dateFormatter().string(from: data.date))
+                                
+                            }
+                            .font(.caption)
                         }
                     }
                     .padding(0)
                     .toggleStyle(.switch)
-                    .onChange(of: data.isCheckDate) { value in
-                        if (value && dateToggle) {
+                    .onTapGesture {
+                        data.isCheckDate.toggle()
+                        if (data.isCheckDate) {
                             openDatePicker = true
+                        } else {
+                            openDatePicker = false
+                            if (data.isCheckTime) {
+                                data.isCheckTime = false
+                                openTimePicker = false
+                            }
                         }
-                        
-                        if (!value) {
-                            data.isCheckTime = false
-                            openTimePicker = false
-                        }
-                        
-                        dateToggle = value
                     }
                 }
-                .onTapGesture {
-                    
-                }
+                
                 if (openDatePicker) {
                     DatePicker("", selection: $data.date, displayedComponents: [.date])
                         .datePickerStyle(.graphical)
-                        
-                        
                 }
                 
                 HStack {
                     RoundedRectangleIcon(systemName: "clock.fill", background: .blue)
-                    Toggle(isOn: $timeToggle) {
+                    Toggle(isOn: $data.isCheckTime) {
                         Text("시간")
                         if (data.isCheckTime) {
-                            Button{}label: {Text("오늘")}
+                            Button{}label: { Text(timeFormatter().string(from: data.date)) }
                                 .font(.caption)
                         }
                     }
                     .toggleStyle(.switch)
-                    .onChange(of: data.isCheckTime) { value in
-                        if (value && timeToggle) {
-                            openTimePicker = value
-                        }
-                        
-                        if (value && !data.isCheckDate) {
-                            data.isCheckDate = true
-                            openDatePicker = false
+                    .onTapGesture {
+                        data.isCheckTime.toggle()
+                        if (data.isCheckTime) {
+                            openTimePicker = true
+                            if (!data.isCheckDate) {
+                                data.isCheckDate = true
+                            }
+                        } else {
+                            openTimePicker = false
                         }
                     }
                 }
