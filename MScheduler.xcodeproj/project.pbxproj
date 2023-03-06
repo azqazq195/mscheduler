@@ -12,6 +12,7 @@
 		C94F394B29B1D491002BF70F /* ReminderListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94F394A29B1D491002BF70F /* ReminderListItemView.swift */; };
 		C94F394E29B35523002BF70F /* RoundedRectangleIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94F394D29B35523002BF70F /* RoundedRectangleIcon.swift */; };
 		C94F397229B39173002BF70F /* ReminderModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C94F397029B39173002BF70F /* ReminderModel.xcdatamodeld */; };
+		C9A00E9529B4848E0057219C /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A00E9429B4848E0057219C /* PersistenceController.swift */; };
 		C9AF84EB29A9CE54000DF6A8 /* MSchedulerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF84EA29A9CE54000DF6A8 /* MSchedulerApp.swift */; };
 		C9AF84ED29A9CE54000DF6A8 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF84EC29A9CE54000DF6A8 /* Persistence.swift */; };
 		C9AF84F229A9CE54000DF6A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF84F129A9CE54000DF6A8 /* ContentView.swift */; };
@@ -40,6 +41,7 @@
 		C94F394A29B1D491002BF70F /* ReminderListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListItemView.swift; sourceTree = "<group>"; };
 		C94F394D29B35523002BF70F /* RoundedRectangleIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedRectangleIcon.swift; sourceTree = "<group>"; };
 		C94F397129B39173002BF70F /* ReminderModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ReminderModel.xcdatamodel; sourceTree = "<group>"; };
+		C9A00E9429B4848E0057219C /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
 		C9AF84E729A9CE54000DF6A8 /* MScheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MScheduler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9AF84EA29A9CE54000DF6A8 /* MSchedulerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSchedulerApp.swift; sourceTree = "<group>"; };
 		C9AF84EC29A9CE54000DF6A8 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				C94F397029B39173002BF70F /* ReminderModel.xcdatamodeld */,
+				C9A00E9429B4848E0057219C /* PersistenceController.swift */,
 			);
 			path = DataModel;
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9AF84EB29A9CE54000DF6A8 /* MSchedulerApp.swift in Sources */,
+				C9A00E9529B4848E0057219C /* PersistenceController.swift in Sources */,
 				C9B824B429B02247007322C0 /* ReminderGroupItemView.swift in Sources */,
 				C9F9AF8829AA08EE00AAB7CB /* TodoModel.swift in Sources */,
 				C9F9AF7629AA00BC00AAB7CB /* TodoAddView.swift in Sources */,
